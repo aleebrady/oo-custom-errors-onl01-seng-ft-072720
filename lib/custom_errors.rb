@@ -10,7 +10,7 @@ class Person
     if person.class != Person
       raise PartnerError
       def message
-        
+         "you must give the get_married method an argument of an instance of the person class!"
     else
       person.partner = self
     end
